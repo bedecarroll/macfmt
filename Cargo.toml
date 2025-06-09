@@ -1,0 +1,15 @@
+[package]
+name = "macfmt"
+version = "0.1.0"
+edition = "2024"
+description = "A tool to format MAC addresses in various formats"
+authors = ["Bede Carroll"]
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+regex = "1.5"
+log = "0.4"
+env_logger = "0.11"
+atty = "0.2"
+edit = "0.1"
+which = "4.0"
