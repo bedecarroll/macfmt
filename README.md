@@ -67,6 +67,18 @@ directly.
 cargo build --release
 ```
 
+### Using Nix
+
+If you have the [Nix](https://nixos.org/) package manager installed, you can
+build and run `macfmt` directly from the provided flake:
+
+```bash
+nix run github:bedecarroll/macfmt
+```
+
+To add it as a dependency in your NixOS configuration, import the flake and use
+`packages.<system>.default`.
+
 ## Usage
 
 ### Basic Usage
