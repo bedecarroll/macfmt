@@ -198,6 +198,7 @@ SUBCOMMANDS:
 OPTIONS:
     --lower     Convert output to lowercase
     --upper     Convert output to uppercase
+    -V, --version  Print version information
     -h, --help  Print help information
 
 ARGUMENTS:
