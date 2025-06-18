@@ -15,6 +15,7 @@ use which::which;
 #[command(
     long_about = "A tool to format MAC addresses in various formats. Uses standard format (xx:xx:xx:xx:xx:xx) by default when no subcommand is specified."
 )]
+#[command(version, propagate_version = true)]
 struct Cli {
     #[command(subcommand)]
     command: Option<Commands>,
