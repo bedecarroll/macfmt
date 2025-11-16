@@ -6,8 +6,8 @@ description = "A tool to format MAC addresses in various formats"
 authors = ["Bede Carroll"]
 
 [dependencies]
-clap = { version = "4.0", features = ["derive"] }
-regex = "1.5"
+clap = { version = "4.5", features = ["derive"] }
+regex = "1.12"
 log = "0.4"
 env_logger = "0.11"
 atty = "0.2"
